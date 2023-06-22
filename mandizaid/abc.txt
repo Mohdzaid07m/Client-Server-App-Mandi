@@ -1,0 +1,2 @@
+update pdate set pdate=sysdate+15;
+clear screen;

@@ -1,0 +1,7 @@
+create table pbillmb as select * from pbillm where 1=2;
+create table pbillm1b as select * from pbillm1 where 1=2;
+create table pbillm2b as select * from pbillm2 where 1=2;
+create table sender_ledgerb as select * from sender_ledger where 1=2;
+alter table sender_ledgerb modify(par varchar2(3000));
+alter table sender_ledger add(status varchar2(2));
+alter table sender_ledgerb add(status varchar2(2),o_cost number(12,2));

@@ -1,0 +1,1 @@
+alter table pbillm add(chno varchar2(100),chdate1 date,chdate2 date);

@@ -1,0 +1,4 @@
+alter table carot add(rno number(10,2));
+ALTER TABLE CAROT ADD(MARKA VARCHAR2(50));
+
+Create table carots as select * from carot;

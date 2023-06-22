@@ -1,0 +1,9 @@
+delete buyer_ledger where ldate='25-FEB-2008'
+/ 
+insert into buyer_ledger (BUYER_NO,NAME,DEBIT,ldate) select BUYER_NO,NAME,BAL,'25-FEB-2008' from buyer_master where bal>0
+/
+ 
+commit
+/
+exit
+/

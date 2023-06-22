@@ -1,0 +1,4 @@
+create table stocke(P_DATE DATE,SENDER_NO NUMBER(5),SNAME VARCHAR2(20),TRUCK_NO VARCHAR2(20),
+ITEM_CODE VARCHAR2(5),INAME VARCHAR2(30),NAG NUMBER(7,2),CATEG varchar2(10),QTY number(10,2),unit1 varchar2(20)
+,rate number(8,2),total number(10,2),ptype varchar2(20))
+/

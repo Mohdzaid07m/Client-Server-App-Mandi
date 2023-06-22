@@ -1,0 +1,1 @@
+ create table sbuyer_detail1 as select *  from buyer_Detail1 where 1=2;

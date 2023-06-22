@@ -1,0 +1,5 @@
+alter table sender_ledgerb add(lorryno varchar2(50),driver_name varchar2(100),freight number(10,2),labor number(10,2),other number(10,2),netamount number(10,2))
+
+
+create table bijak_ledger as select * from sender_ledgerb where 1=2;
+/
